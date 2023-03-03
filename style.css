@@ -91,7 +91,7 @@ body{
 
 .logo-text{
     width: 60%;
-    margin: 4rem auto 3rem;
+    margin: 2rem auto 3rem;
     position: absolute;
     padding-inline: 2rem;
     left: 0;
@@ -134,7 +134,7 @@ body{
 }
 
 .container{
-    padding: 10rem 30px;
+    padding: 9rem 30px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -240,12 +240,12 @@ body{
 
 @media screen and (max-width: 500px){
     .container{
-        margin: 10px;
-        width: 60%;
-        margin: auto;
+        padding-top: 6rem;
+        width: 100%;
     }
 
     .logo-text{
+        width: 100%;
         font-size: 2rem;
     }
 
@@ -259,8 +259,14 @@ body{
     }
 
     .container .color{
-        margin: 8px;
+        margin: 4px;
         padding: 5px;
+        box-shadow: none;
+    }
+
+    .color .rect-box {
+        width: 140px;
+        height: 143px;
     }
     .color .hex-value{
         font-size: 1.05rem;
