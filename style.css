@@ -240,7 +240,7 @@ body{
 
 @media screen and (max-width: 500px){
     .container{
-        padding-top: 6rem;
+        padding-top: 8rem;
         width: 100%;
     }
 
